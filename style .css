@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.dice-container {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.dice {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.dice-1 {
+    background-image: url('https://www.clipartbest.com/cliparts/ncE/GAr/ncEGAr4cA.png');
+}
+
+.dice-2 {
+    background-image: url('https://www.clipartbest.com/cliparts/ncE/GAr/ncEGAr4cA.png');
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
